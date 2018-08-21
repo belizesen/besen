@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#heading{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/** HEADER **/
+
+#header-nav {
+
+  background-color: gray; 
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  background-color: gray; 
+}
+
+.navbar-brand h1 { 
+  background-color: gray; 
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+
+}
+
+/* END HEADER */
+
+#nav-list a:hover{
+  background: #E7E7E7;
+  color: #0000;
+}
+
+#collapsable-nav ul{
+  background-color: #fff;
+}  
+
+#collapsable-nav li{
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: #000;
+  text-align: center;
+}
+
+.row > div {
+  padding-top: 25px;
+  background-color: gray;
+}
+
+
+#home-tiles {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  margin: 0px;
+}
+
+
+
+#main-content{
+
+}
+
+#section {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
